@@ -1,5 +1,8 @@
 # Process_prioritization
 An SQL-based analytical solution that automates the prioritization of critical business workflows using statistical percentiles and Euclidean distance.
+
+**[Click here to view the interactive Tableau Dashboard: Visualizing project results and enabling streamlined process tracking across the organization] https://public.tableau.com/views/TransactionsProject_17902107818160/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link**
+
 # Operational Dashboard & Transaction Prioritization
 This repository contains the SQL logic used to dynamically prioritize "Happy Path" transactions for Process Analysts. 
 
