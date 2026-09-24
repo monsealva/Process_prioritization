@@ -5,10 +5,12 @@ This repository contains the SQL logic used to dynamically prioritize "Happy Pat
 
 The code calculates statistical percentiles and Euclidean distance to isolate high-value transactions, preventing the loss of historical data caused by the native system's novelty score reset.
 
-## Data Dictionary (Anonymized)
-Due to corporate confidentiality, the original datasets cannot be shared. The schema below represents the anonymized structure used for the statistical modeling:
+### Data Dictionary (Anonymized)
+
+Due to corporate confidentiality, the original datasets cannot be shared[cite: 2]. The schema below represents the anonymized structure used for the statistical modeling[cite: 2]:
 
 | Column Name | Data Type | Description |
+| :--- | :--- | :--- |
 | `project_lead` | String | The manager assigned to oversee the project. |
 | `client` | String | Identifier for the client (e.g., Client Alpha). |
 | `project_name` | String | The specific process mapping project. |
